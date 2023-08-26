@@ -18,6 +18,13 @@ source /usr/share/yunohost/helpers
 yunohost app list | grep -q "id: zerotier" || ynh_die "ZeroTier is needed, but it is not installed. Restore its backup first, otherwise there is a package for that, then perform a force-upgrade of ZeroUI."
 
 #=================================================
+# REINSTALL DEPENDENCIES
+#=================================================
+ynh_script_progression --message="Reinstalling dependencies..." --weight=2
+
+ynh_install_nodejs --nodejs_version=$nodejs_version
+
+#=================================================
 # RESTORE THE APP MAIN DIR
 #=================================================
 ynh_script_progression --message="Restoring the app main directory..." --weight=1
