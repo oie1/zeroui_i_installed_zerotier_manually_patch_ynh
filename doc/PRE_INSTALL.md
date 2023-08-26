@@ -1,1 +1,1 @@
-This is a dummy disclaimer to display prior to the install
+ZeroUI requires ZeroTier to be installed beforehand.
