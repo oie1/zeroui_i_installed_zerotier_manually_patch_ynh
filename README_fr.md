@@ -32,10 +32,14 @@ This project is highly inspired by [ztncui](https://github.com/key-networks/ztnc
 
 ![Capture d’écran de ZeroUI](./doc/screenshots/homepage.png)
 
+## :red_circle: Fonctions indésirables
+
+- **Non-free dependencies**: Relies on software dependencies that are not free in order to run.
+
 ## Documentations et ressources
 
 * Dépôt de code officiel de l’app : <https://github.com/dec0dOS/zero-ui>
-* Documentation YunoHost pour cette app : <https://yunohost.org/app_zeroui>
+* YunoHost Store: <https://apps.yunohost.org/app/zeroui>
 * Signaler un bug : <https://github.com/YunoHost-Apps/zeroui_ynh/issues>
 
 ## Informations pour les développeurs
