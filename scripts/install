@@ -21,13 +21,15 @@ yunohost app list | grep -q "id: zerotier" || ynh_die "ZeroTier is needed, but i
 #=================================================
 ynh_script_progression --message="Installing dependencies..." --weight=2
 
+# Prevent ERR_OSSL_EVP_UNSUPPORTED error
+export NODE_OPTIONS=--openssl-legacy-provider
+# Prevent yet another Node and Corepack madness
+export COREPACK_ENABLE_DOWNLOAD_PROMPT=0
+
 ynh_install_nodejs --nodejs_version=$nodejs_version
 ynh_use_nodejs
 $nodejs_path/corepack enable
 $nodejs_path/corepack prepare yarn@stable --activate
-
-# Prevent ERR_OSSL_EVP_UNSUPPORTED error
-export NODE_OPTIONS=--openssl-legacy-provider
 
 #=================================================
 # APP "BUILD" (DEPLOYING SOURCES, VENV, COMPILING ETC)
