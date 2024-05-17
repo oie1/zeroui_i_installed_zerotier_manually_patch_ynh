@@ -34,7 +34,7 @@ This project is highly inspired by [ztncui](https://github.com/key-networks/ztnc
 
 ## :red_circle: Anti-fonctionnalités
 
-- **Dépendances non libres**: Dépend pour fonctionner de dépendances logicielles non libres.
+- **Dépendances non libres **: Dépend pour fonctionner de dépendances logicielles non libres.
 
 ## Documentations et ressources
 

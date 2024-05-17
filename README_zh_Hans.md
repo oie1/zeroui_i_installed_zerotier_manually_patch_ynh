@@ -1,20 +1,20 @@
 <!--
-NOTA: Este README foi creado automáticamente por <https://github.com/YunoHost/apps/tree/master/tools/readme_generator>
-NON debe editarse manualmente.
+注意：此 README 由 <https://github.com/YunoHost/apps/tree/master/tools/readme_generator> 自动生成
+请勿手动编辑。
 -->
 
-# ZeroUI para YunoHost
+# YunoHost 上的 ZeroUI
 
-[![Nivel de integración](https://dash.yunohost.org/integration/zeroui.svg)](https://dash.yunohost.org/appci/app/zeroui) ![Estado de funcionamento](https://ci-apps.yunohost.org/ci/badges/zeroui.status.svg) ![Estado de mantemento](https://ci-apps.yunohost.org/ci/badges/zeroui.maintain.svg)
+[![集成程度](https://dash.yunohost.org/integration/zeroui.svg)](https://dash.yunohost.org/appci/app/zeroui) ![工作状态](https://ci-apps.yunohost.org/ci/badges/zeroui.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/zeroui.maintain.svg)
 
-[![Instalar ZeroUI con YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=zeroui)
+[![使用 YunoHost 安装 ZeroUI](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=zeroui)
 
-*[Le este README en outros idiomas.](./ALL_README.md)*
+*[阅读此 README 的其它语言版本。](./ALL_README.md)*
 
-> *Este paquete permíteche instalar ZeroUI de xeito rápido e doado nun servidor YunoHost.*  
-> *Se non usas YunoHost, le a [documentación](https://yunohost.org/install) para saber como instalalo.*
+> *通过此软件包，您可以在 YunoHost 服务器上快速、简单地安装 ZeroUI。*  
+> *如果您还没有 YunoHost，请参阅[指南](https://yunohost.org/install)了解如何安装它。*
 
-## Vista xeral
+## 概况
 
 ZeroTier Controller Web UI is a web user interface for a self-hosted ZeroTier network controller.
 
@@ -26,32 +26,32 @@ This project is highly inspired by [ztncui](https://github.com/key-networks/ztnc
 - ZeroUI is more feature complete. ZeroUI has almost all network-controller-supported features, for example, rule editor. The development process hasn't stopped, so you will enjoy new features and bug fixes shortly.
 
 
-**Versión proporcionada:** 1.5.8~ynh1
+**分发版本：** 1.5.8~ynh1
 
-## Capturas de pantalla
+## 截图
 
-![Captura de pantalla de ZeroUI](./doc/screenshots/homepage.png)
+![ZeroUI 的截图](./doc/screenshots/homepage.png)
 
-## :red_circle: Debes considerar
+## :red_circle: 负面特征
 
 - **Non-free dependencies**: Relies on software dependencies that are not free in order to run.
 
-## Documentación e recursos
+## 文档与资源
 
-- Repositorio de orixe do código: <https://github.com/dec0dOS/zero-ui>
-- Tenda YunoHost: <https://apps.yunohost.org/app/zeroui>
-- Informar dun problema: <https://github.com/YunoHost-Apps/zeroui_ynh/issues>
+- 上游应用代码库： <https://github.com/dec0dOS/zero-ui>
+- YunoHost 商店： <https://apps.yunohost.org/app/zeroui>
+- 报告 bug： <https://github.com/YunoHost-Apps/zeroui_ynh/issues>
 
-## Info de desenvolvemento
+## 开发者信息
 
-Envía a túa colaboración á [rama `testing`](https://github.com/YunoHost-Apps/zeroui_ynh/tree/testing).
+请向 [`testing` 分支](https://github.com/YunoHost-Apps/zeroui_ynh/tree/testing) 发送拉取请求。
 
-Para probar a rama `testing`, procede deste xeito:
+如要尝试 `testing` 分支，请这样操作：
 
 ```bash
 sudo yunohost app install https://github.com/YunoHost-Apps/zeroui_ynh/tree/testing --debug
-ou
+或
 sudo yunohost app upgrade zeroui -u https://github.com/YunoHost-Apps/zeroui_ynh/tree/testing --debug
 ```
 
-**Máis info sobre o empaquetado da app:** <https://yunohost.org/packaging_apps>
+**有关应用打包的更多信息：** <https://yunohost.org/packaging_apps>
