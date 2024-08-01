@@ -10,13 +10,6 @@ source _common.sh
 source /usr/share/yunohost/helpers
 
 #=================================================
-# CHECK IF THE APP CAN BE INSTALLED
-#=================================================
-
-# Testing if ZeroTier is installed
-yunohost app list | grep -q "id: zerotier" || ynh_die "ZeroTier is needed, but it is not installed. There is a package for that!"
-
-#=================================================
 # INSTALL DEPENDENCIES
 #=================================================
 ynh_script_progression --message="Installing dependencies..." --weight=2
